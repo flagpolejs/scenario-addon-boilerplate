@@ -1,7 +1,6 @@
-import { GraphQLScenario } from "./example-scenario";
-import { GraphQLResponse } from "./example-response";
-import { GraphQLRequestOptions } from "./graphql-request-opts";
+import { ExampleScenario } from "./example-scenario";
+import { ExampleResponse } from "./example-response";
 
-export default GraphQLScenario;
+export default ExampleScenario;
 
-export { GraphQLScenario, GraphQLResponse, GraphQLRequestOptions, gql };
+export { ExampleScenario, ExampleResponse };
